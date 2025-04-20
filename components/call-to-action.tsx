@@ -11,6 +11,10 @@ export default function CallToAction() {
           </h2>
           <p className="mt-4">Libero sapiente aliquam quibusdam aspernatur.</p>
 
+          <div className="mt-8 w-full"> {/* Changed justify-center to w-full for the container */}
+            <iframe src="https://embeds.beehiiv.com/68d67b66-da9d-4a3b-8270-5755d3500cc8" data-test-id="beehiiv-embed" width="100%" height="320" frameBorder="0" scrolling="no" style={{ borderRadius: '4px', margin: 0, backgroundColor: 'transparent' }}></iframe>
+          </div>
+
           <div className="mt-12 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg">
               <Link href="/">

@@ -36,6 +36,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+          <script type="text/javascript" async src="https://embeds.beehiiv.com/attribution.js" />
       </body>
     </html>
   );
